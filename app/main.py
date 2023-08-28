@@ -48,4 +48,3 @@ def root():
 # pwd
 # /Users/elvisramosvasconcelos/social/app
 # ../venv/bin/uvicorn main:app --reload
-
