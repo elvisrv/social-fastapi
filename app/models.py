@@ -4,7 +4,7 @@ from sqlalchemy.orm import relationship
 from sqlalchemy.sql.sqltypes import TIMESTAMP
 
 # from app.database import Base # User with alembic
-from database import Base # User with uvicorn
+from .database import Base # User with uvicorn
 # from database import Base
 
 class Post(Base):
