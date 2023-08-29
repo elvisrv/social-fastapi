@@ -11,8 +11,7 @@ class Settings(BaseSettings):
     access_token_expire_minutes: int
 
     class Config:
-        # env_file = ".env" # Use with alembic
-        env_file = "./.env" # Use with uvicorn
+        env_file = "./.env"
 
 settings = Settings()
 
