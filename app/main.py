@@ -48,8 +48,3 @@ def root():
 # pwd
 # /Users/elvisramosvasconcelos/social/app
 # ../venv/bin/uvicorn main:app --reload
-
-# pip check
-# fastapi-security 0.5.0 has requirement pydantic<2,>=1, but you have pydantic 2.3.0.
-# fastapi 0.103.0 has requirement starlette<0.28.0,>=0.27.0, but you have starlette 0.31.1.
-# maison 1.4.0 has requirement pydantic<2.0.0,>=1.8.2, but you have pydantic 2.3.0.
